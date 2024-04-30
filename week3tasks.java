@@ -109,31 +109,31 @@ public class week3tasks {
     /* 1. Write a Java program that takes a student's grade as input (A, B, C, D, or F) 
         and converts it to the corresponding GPA value. Use a switch case statement to handle different grades.*/
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter student's grade (A, B, C, D, or F): ");
-        char grade = sc.next().toUpperCase().charAt(0); 
-        double gpa;
-        switch (grade) {
-            case 'A':
-                gpa = 4.0;
-                break;
-            case 'B':
-                gpa = 3.0;
-                break;
-            case 'C':
-                gpa = 2.0;
-                break;
-            case 'D':
-                gpa = 1.0;
-                break;
-            case 'F':
-                gpa = 0.0;
-                break;
-            default:
-                System.out.println("Invalid grade entered.");
-                return; 
-        }
-        System.out.printf("The corresponding GPA value for grade %c is : %.2f",grade,gpa);
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter student's grade (A, B, C, D, or F): ");
+        // char grade = sc.next().toUpperCase().charAt(0); 
+        // double gpa;
+        // switch (grade) {
+        //     case 'A':
+        //         gpa = 4.0;
+        //         break;
+        //     case 'B':
+        //         gpa = 3.0;
+        //         break;
+        //     case 'C':
+        //         gpa = 2.0;
+        //         break;
+        //     case 'D':
+        //         gpa = 1.0;
+        //         break;
+        //     case 'F':
+        //         gpa = 0.0;
+        //         break;
+        //     default:
+        //         System.out.println("Invalid grade entered.");
+        //         return; 
+        // }
+        // System.out.printf("The corresponding GPA value for grade %c is : %.2f",grade,gpa);
     
     
     /*2. Create a Java program that takes two numbers and an operator (+, -, *, /) 
